@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function redirect() {
+			window.location.href="file:///C:/Users/admin/Desktop/HTML%20experiments/register.html"
+		}
+	</script>
+</head>
+<body>
+<h1>Name Details Forms:-</h1>
+	Name:
+	<input type="text" id="Name"  name="Name">
+<br><br>
+	Age:
+	<input type="number" id="Age" name="Age">
+	<br>
+<p> Gender</p>
+  	<input type="radio" id="Male" name="Gender" value="Male" checked>
+  	Male
+  	<input type="radio" id="Female" name="Gender" value="Female" >
+ 	 Female
+  	<input type="radio" id="Others" name="Gender" value="Others" >
+ 	 Others
+<br><br>
+	Mobile:
+	<input type="tel" id="Mobile" name="Mobile">
+	<br><br>
+	Weight:
+	<input type="number" id="Weight" name="Weight">
+	<br><br>
+	Height:
+	<input type="number" id="Height" name="Height">
+<br><br>
+<p>Which language do you know?</p>
+	<input type="checkbox" id="English" name="English" value="Language">
+	English
+	<input type="checkbox" id="Tamil" name="Tamil" value="Language">
+	Tamil
+	<input type="checkbox" id="Others" name="Others" value="Language">
+	Others
+<br><br>
+<p>Which ID proof do you have?</p>
+	<input type="checkbox" id="AAdhar" name="AAdhar" value="proof" checked>
+	AAdhar
+	<input type="checkbox" id="PAN Card" name="PAN Card" value="proof">
+	PAN Card
+	<input type="checkbox" id="Ration Card" name="Ration Card" value="proof">
+	Ration Card
+	<input type="checkbox" id="Driving License" name="Driving License" value="proof">
+	Driving License
+<br><br>
+<p>Permissions:</p>
+	<input type="checkbox" id="Read" name="Read" value="Language" checked>
+	Read
+	<input type="checkbox" id="Write" name="Write" value="Language">
+	Write<br>
+	<input type="checkbox" id="Edit" name="Edit" value="Language">
+	Edit
+	<input type="checkbox" id="Delete" name="Delete" value="Language">
+	Delete
+<br><br>
+<button onclick="redirect()">Submit</button>
+</body>
+</html>
